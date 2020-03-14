@@ -6,6 +6,7 @@ public class Car {
 	private double numberOfWheels = 2;
 	private Engine engine;
 	private String numberOfWheels;
+	private String num5566;
 
 	public Car(Engine engine) {
 		this.engine = engine;
