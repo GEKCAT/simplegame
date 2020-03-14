@@ -1,0 +1,24 @@
+1. 註冊驅動程式
+	(1). Class.forName()
+	(2). DriverManager.registerDriver()
+
+2. 創建連接對象(interface, 但是驅動程式已經實作, Statement 與 ResultSet 同樣已經實作)
+	getConnection() 方法
+	(1). getConnection(String url)
+		※URL 內包含USER與PWD
+		jdbc:oracle:thin:username/password@amrood:1521:EMP
+	(2). getConnection(String url, Properties prop)
+		※Properties 保存一組 (Key, Value) 對象
+		  Properties info = new Properties( );
+		  info.put( "user", "username" );
+		  info.put( "password", "password" );
+	(3). getConnection(String url, String user, String password)
+		Connection conn = DriverManger.getConnection(URL, USER, PWD)	
+	
+3. Connection 需要被關閉
+
+
+
+
+
+
