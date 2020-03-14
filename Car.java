@@ -1,8 +1,9 @@
 package mycar;
 
 public class Car {
-	private double numberOfWheels = 4;
+	private String numberOfWheels = "dud";
 	private int numberOfWheels = 4;
+	private double numberOfWheels = 2;
 	private Engine engine;
 
 	public Car(Engine engine) {
