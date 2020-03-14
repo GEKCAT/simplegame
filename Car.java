@@ -6,7 +6,11 @@ public class Car {
 	private double numberOfWheels = 2;
 	private Engine engine;
 	private String numberOfWheels;
+<<<<<<< HEAD
 	private String num5566;
+=======
+	private String num98765641354;
+>>>>>>> hotfix
 
 	public Car(Engine engine) {
 		this.engine = engine;
